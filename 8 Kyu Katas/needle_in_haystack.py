@@ -1,4 +1,8 @@
 def find_needle(haystack):
+    """This function takes an array full of junk but containing one needle.
+    After the function finds the needle it returns a message as string that says
+    'found the needle at position ' plus the index it found the needle."""
+    
     for item in haystack:
         if item == "needle":
             return f"found the needle at position {haystack.index(item)}"
