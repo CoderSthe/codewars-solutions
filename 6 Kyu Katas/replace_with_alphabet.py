@@ -14,7 +14,7 @@ def alphabet_position(text):
         if char not in alphabet:
             text = text.replace(char, "")
         else:
-            text = text.replace(char, str(alphabet[char]) + " ")
+            text = text.replace(char, f"{alphabet[char]} ")
 
         
     return text.rstrip()
