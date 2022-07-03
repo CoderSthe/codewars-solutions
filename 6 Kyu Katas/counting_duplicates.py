@@ -3,10 +3,9 @@ def duplicate_count(text):
     string that have duplicates.
     EG. aabbcde would return 2(a and b)."""
     count = 0
-    text = text.lower()
     new_list = []
     
-    for char in text:
+    for char in text.lower():
         if char not in new_list:
             new_list.append(char)
         else:
