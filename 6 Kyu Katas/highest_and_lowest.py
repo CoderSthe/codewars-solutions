@@ -9,7 +9,7 @@ def high_and_low(numbers):
     highest = max(int_num)
     lowest = min(int_num)
 
-    return str(highest) + " " + str(lowest)
+    return f"{highest} {lowest}"
 
 
 
