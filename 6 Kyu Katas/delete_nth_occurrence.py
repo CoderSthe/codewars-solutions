@@ -12,3 +12,5 @@ def delete_nth(order,max_e):
             new_list.append(num)
             
     return new_list
+
+print(delete_nth([1,2,3,1,2,1,2,3], 2))
